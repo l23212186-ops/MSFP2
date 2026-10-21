@@ -24,14 +24,14 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Objetivos
 
-1. Calcular la función de transferencia del sistema cardiovascular a partir del modelo Windkessel.
-2. Determinar el modelo de ecuaciones integro-diferenciales que describen la dinámica de presión y flujo arterial.
-3. Analizar la estabilidad del sistema circulatorio mediante la ubicación de polos y ceros en el plano complejo.
-4. Determinar el error en estado estacionario ante distintas señales de entrada estándar.
-5. Emular la respuesta del circuito eléctrico equivalente del modelo Windkessel en Simulink/Simscape ante entradas al escalón, impulso, rampa y función sinusoidal.
-6. Sintonizar las ganancias de un controlador $PID$ en Simulink/MATLAB para regular la presión arterial y eliminar el error entre la referencia y la salida del sistema.
-7. Simular la respuesta del sistema cardiovascular en lazo abierto y lazo cerrado en Simulink/MATLAB ante diversas señales de excitación.
-8. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Python utilizando la función de transferencia del modelo Windkessel.
+1. Determinar el modelo de ecuaciones diferenciales del modelo Windkessel de cuatro elementos.
+2. Calcular la función de transferencia de los casos hipotenso, normotenso e hipertenso.
+3. Analizar la estabilidad del sistema.
+4. Determinar el error en estado estacionario.
+5. Simular la respuesta en lazo abierto de los tres casos en Simulink/Simscape ante una señal de excitación aleatoria.
+6. Sintonizar las ganancias de un controlador PID en Simulink/MATLAB para reducir el error entre la respuesta normotensa y las respuestas hipotensa e hipertensa.
+7. Simular la respuesta del sistema en lazo cerrado con el controlador PID en Simulink/MATLAB.
+8. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Python con la función de transferencia.
 
 ## Descripción detallada del sistema
 
