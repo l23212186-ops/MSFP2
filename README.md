@@ -31,7 +31,7 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 5. Emular la respuesta del circuito eléctrico equivalente del modelo Windkessel en Simulink/Simscape ante entradas al escalón, impulso, rampa y función sinusoidal.
 6. Sintonizar las ganancias de un controlador $PID$ en Simulink/MATLAB para regular la presión arterial y eliminar el error entre la referencia y la salida del sistema.
 7. Simular la respuesta del sistema cardiovascular en lazo abierto y lazo cerrado en Simulink/MATLAB ante diversas señales de excitación.
-8. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador $PID$ en Spyder/Python utilizando la función de transferencia del modelo Windkessel.
+8. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Python utilizando la función de transferencia del modelo Windkessel.
 
 ## Descripción detallada del sistema
 
