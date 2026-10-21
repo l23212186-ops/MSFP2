@@ -1,10 +1,10 @@
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/)
 
-# Práctica: Modelado y control del sistema cardiovascular mediante el modelo Windkessel
 
-## Información de la estudiante
+# Práctica 2: Modelado y control del sistema cardiovascular mediante el modelo Windkessel
 
-Nombres y Apellidos \[No. Control]; correo institucional
+## Información del estudiante
+
+Christian Cid Pacheco [23212186]; L23212186@tectijuana.edu.mx
 
 Modelado de Sistemas Fisiológicos
 
@@ -37,23 +37,30 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 En esta práctica se estudia el modelado y control del sistema cardiovascular mediante el modelo Windkessel, el cual establece una analogía fundamental entre las propiedades elásticas de las arterias (compliancia), la resistencia periférica al flujo sanguíneo y los elementos pasivos de un circuito $RLC$. El sistema modela la dinámica de la presión y el flujo en el aparato circulatorio, permitiendo evaluar la respuesta transitoria y estacionaria ante perturbaciones, así como el desempeño de estrategias de control clásico para la regulación hemodinámica.
 
-Palabras clave: Sistema cardiovascular; Modelo Windkessel; Circuito $RLC$; Controlador $PID$; Simulación numérica.
+Palabras clave: Sistema cardiovascular; Modelo Windkessel; Circuito RLC; Controlador PID; Simulación numérica.
 
 ## Lista de archivos incluidos en el repositorio
 
-1. Cuaderno computacional de MATLAB \[`..mlx`].
-2. Modelo de Simulink \[`..slx`].
-3. Archivos de Spyder \[`..py`].
-4. Imagen con los parámetros del controlador.
-5. Imágenes de las simulaciones \[`..pdf` y `..png`].
-6. Análisis matemático: Función de transferencia, modelo de ecuaciones integro-diferenciales, estabilidad y error en estado estacionario.
+1. Cuaderno computacional de MATLAB \[.mlx].
+2. Modelo de Simulink \[.slx].
+3. Archivos de VS Python \[.py].
+4. Imagen con los parámetros de ambos controladoradores.
+5. Imágenes de las simulaciones \[.pdf].
+6. Imagen de diagrama biologico.
+7. Análisis matemático: Función de transferencia, modelo de ecuaciones integro-diferenciales, estabilidad y error en estado estacionario.
 
 ## Referencias
 
-\[1] P. A. Valle, Syllabus para Modelado de Sistemas Fisiológicos, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2026. Permalink: https://biomath.xyz/course/
+\[1] M. C. Khoo, Physiological Control Systems: Analysis, Simulation, and Estimation, 2nd ed. Piscataway, New Jersey, USA: IEEE Press, 2018.
 
-\[2] M. C. Khoo, Physiological Control Systems Analysis, Simulation, and Estimation, 2nd ed. Piscataway, New Jersey, USA: IEEE Press, 2018.
+\[2] F. C. Hoppensteadt and C. S. Peskin, Modeling and Simulation in Medicine and the Life Sciences, 2nd ed. New York, NY, USA: Springer, 2002.
 
-\[3] N. S. Nise, Control Systems Engineering, 8th ed. Hoboken, New Jersey, USA: John Wiley \& Sons, 2020.
+\[3] J. E. Hall, Guyton and Hall Textbook of Medical Physiology, 14th ed. Philadelphia, PA, USA: Elsevier, 2021.
 
-\[4] T. Kind, T. J. Faes, J. W. Lankhaar, A. Vonk-Noordegraaf, and M. Verhaegen, "Estimation of three- and four-element Windkessel parameters using subspace model identification," IEEE Trans. Biomed. Eng., vol. 57, no. 7, pp. 1531-1538, 2010, doi: 10.1109/TBME.2010.2041351.
+\[4] K. Ogata, Ingeniería de Control Moderna, 5a ed. Madrid, España: Pearson Educación, 2010.
+
+\[5] N. S. Nise, Control Systems Engineering, 8th ed. Hoboken, New Jersey, USA: John Wiley & Sons, 2020.
+
+\[6] P. A. Valle, Syllabus para Modelado de Sistemas Fisiológicos, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2026. Permalink: https://biomath.xyz/course/
+
+\[7] Tecnológico Nacional de México, Programa de estudio de la asignatura Modelado de Sistemas Fisiológicos, Clave de la asignatura: IBF-1020, 2010.
